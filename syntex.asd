@@ -4,14 +4,15 @@
   :license "MIT"
   :homepage "https://git.mfiano.net/mfiano/syntex"
   :encoding :utf-8
-  :depends-on (#:cl-cpus
-               #:lparallel
-               #:mfiano-utils
-               #:pngload
-               #:seedable-rng
-               #:trivial-garbage
-               #:uiop
-               #:zpng)
+  :depends-on
+  (#:cl-cpus
+   #:lparallel
+   #:mfiano-utils
+   #:pngload
+   #:seedable-rng
+   #:trivial-garbage
+   #:uiop
+   #:zpng)
   :pathname "src"
   :serial t
   :components
